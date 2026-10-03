@@ -2,6 +2,8 @@
 
 感谢使用 WasHere。
 
+[删除 WasHere 后，本机和 iCloud 数据会怎样？](delete-app.md)
+
 WasHere 是一款简单、专注隐私的户外轨迹记录 App，用于记录散步、徒步、跑步和城市探索等活动。
 
 ## 常见问题
@@ -25,6 +27,8 @@ qiuxincsu@hotmail.com
 # WasHere Support
 
 Thank you for using WasHere.
+
+[What happens to local and iCloud data when I delete WasHere?](delete-app.md)
 
 WasHere is a simple, privacy-focused outdoor activity and GPS track recording app for walking, hiking, running, and exploring.
 

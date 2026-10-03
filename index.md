@@ -2,6 +2,8 @@
 
 生效日期 / Effective: 2026-09-27
 
+[删除 App 后哪些数据保留？ / What happens to my data when I delete the app?](delete-app.md)
+
 ---
 
 ## 中文
