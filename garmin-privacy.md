@@ -21,9 +21,9 @@ Garmin Connect 自动同步功能正在开发中。以下说明适用于用户�
 
 ### 3. 保留、安全与删除
 
-Garmin 原始活动文件在成功导入你的 iPhone 后从 WasHere 服务器删除；导入失败的文件最多保留 7 天，以便重试，之后删除。完成连接所需的 Garmin 用户标识和 OAuth 凭据仅在你保持连接期间保存，并在断开连接或撤回授权后删除。传输使用 HTTPS；服务器限制对凭据和活动数据的访问。
+Garmin 推送的原始活动数据在成功导入你的 iPhone 后从 WasHere 服务器删除；导入失败的数据最多保留 7 天，以便重试，之后删除。完成连接所需的 Garmin 用户标识和 OAuth 凭据在你保持连接期间保存；你在 WasHere 中断开连接时，服务器会撤销 Garmin 注册并删除这些凭据。传输使用 HTTPS；服务器限制对凭据和活动数据的访问。
 
-你可以在 WasHere 中查看、导出或删除已导入的记录。你可以在 Garmin Connect 的授权设置中撤回 WasHere 的访问权限，停止后续同步；如需删除服务器上尚未交付的数据或凭据，或请求访问、更正、导出数据，请联系 **qiuxincsuhk@hotmail.com**。撤回授权不会自动删除已导入 iPhone 的本地记录；你可在 WasHere 中自行删除。若你曾主动开启 iCloud 同步，也可在自己的 iCloud 云盘中删除相应文件。
+你可以在 WasHere 中查看、导出或删除已导入的记录。你可以在 WasHere 中断开 Garmin 连接，或在 Garmin Connect 的授权设置中撤回 WasHere 的访问权限，以停止后续同步。如果只在 Garmin Connect 中撤回授权，请同时在 WasHere 中断开连接，或联系 **qiuxincsuhk@hotmail.com** 请求删除服务器上尚未交付的数据及凭据。你也可以通过该邮箱请求访问、更正或导出数据。撤回授权不会自动删除已导入 iPhone 的本地记录；你可在 WasHere 中自行删除。若你曾主动开启 iCloud 同步，也可在自己的 iCloud 云盘中删除相应文件。
 
 ### 4. 政策变更
 
@@ -50,9 +50,9 @@ We do not sell Garmin data or provide it to advertisers, data brokers or AI serv
 
 ### 3. Retention, security and deletion
 
-Raw Garmin activity files are deleted from the WasHere server after successful import to your iPhone. Failed imports are retained for retry for no more than seven days and then deleted. The Garmin user identifier and OAuth credentials needed for the connection are retained only while you remain connected and are deleted when you disconnect or withdraw authorization. Data is transmitted over HTTPS, and server access to credentials and activity data is restricted.
+Raw Garmin activity data delivered by push is deleted from the WasHere server after successful import to your iPhone. Failed imports are retained for retry for no more than seven days and then deleted. The Garmin user identifier and OAuth credentials needed for the connection are retained while you remain connected. When you disconnect in WasHere, the server revokes the Garmin registration and deletes those credentials. Data is transmitted over HTTPS, and server access to credentials and activity data is restricted.
 
-You can view, export or delete imported records in WasHere. You can revoke WasHere's access in Garmin Connect authorization settings to stop future syncing. To request deletion of undelivered server data or credentials, or to request access, correction or export, contact **qiuxincsuhk@hotmail.com**. Revoking access does not automatically delete records already imported to your iPhone; you can delete those in WasHere. If you enabled iCloud sync, you can also remove the corresponding files from your own iCloud Drive.
+You can view, export or delete imported records in WasHere. You can disconnect Garmin in WasHere or revoke WasHere's access in Garmin Connect authorization settings to stop future syncing. If you revoke access only in Garmin Connect, also disconnect in WasHere or contact **qiuxincsuhk@hotmail.com** to request deletion of undelivered server data and credentials. You can also contact us to request access, correction or export. Revoking access does not automatically delete records already imported to your iPhone; you can delete those in WasHere. If you enabled iCloud sync, you can also remove the corresponding files from your own iCloud Drive.
 
 ### 4. Changes
 
