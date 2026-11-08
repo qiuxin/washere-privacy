@@ -40,7 +40,7 @@ WasHere（"本应用"）是一款户外轨迹记录应用。你在手机和 Appl
 - 你可以在本应用中删除单条记录，或在"设置与备份"中删除全部本地记录。
 - 开启过 iCloud 同步的话，iCloud 云盘中的文件不会因为关闭同步而自动删除，你可以在"文件"App 的 iCloud 云盘 → WasHere 中删除。
 - 卸载本应用会删除这台设备上的本地数据。
-- Garmin 同步上线后，服务器上的 Garmin 原始活动文件在成功导入后删除；失败文件最多保留 7 天。撤回授权和请求删除的方法见 [Garmin Connect 数据隐私说明](https://qiuxin.github.io/washere-privacy/garmin-privacy.html)。
+- Garmin 同步上线后，服务器上的 Garmin 原始活动数据在成功导入后删除；失败数据最多保留 7 天。撤回授权和请求删除的方法见 [Garmin Connect 数据隐私说明](https://qiuxin.github.io/washere-privacy/garmin-privacy.html)。
 
 ### 7. 儿童隐私
 本应用不面向 13 岁以下儿童，也不会有意收集儿童的个人信息。
@@ -87,7 +87,7 @@ You can export activities as GPX or as a JSON backup and choose where to save or
 - You can delete a single activity in the App, or delete all local activities in Settings & backup.
 - If you used iCloud sync, files in iCloud Drive are not deleted automatically when you turn sync off. You can remove them in the Files app under iCloud Drive → WasHere.
 - Uninstalling the App removes the local data on that device.
-- Once Garmin sync launches, raw Garmin activity files on the server will be deleted after successful import; failed imports will be retained for at most seven days. See the [Garmin Connect Data Privacy Notice](https://qiuxin.github.io/washere-privacy/garmin-privacy.html) for revocation and deletion requests.
+- Once Garmin sync launches, raw Garmin activity data on the server will be deleted after successful import; failed imports will be retained for at most seven days. See the [Garmin Connect Data Privacy Notice](https://qiuxin.github.io/washere-privacy/garmin-privacy.html) for revocation and deletion requests.
 
 ### 7. Children
 The App is not directed at children under 13 and does not knowingly collect children's personal information.
