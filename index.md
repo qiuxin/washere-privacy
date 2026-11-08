@@ -1,6 +1,6 @@
 # WasHere 隐私政策 / Privacy Policy
 
-生效日期 / Effective: 2026-09-27
+生效日期 / Effective: 2026-11-08
 
 [删除 App 后哪些数据保留？ / What happens to my data when I delete the app?](delete-app.md)
 
@@ -8,13 +8,13 @@
 
 ## 中文
 
-WasHere（"本应用"）是一款户外轨迹记录应用。我们的原则很简单：你的轨迹属于你，我们不需要、也不会去收集它。
+WasHere（"本应用"）是一款户外轨迹记录应用。你在手机和 Apple Watch 上记录的轨迹默认由你自己保管。未来如你主动连接 Garmin Connect，Garmin 活动数据将按[Garmin Connect 数据隐私说明](https://qiuxin.github.io/washere-privacy/garmin-privacy.html)处理。
 
 ### 1. 我们不做的事
-- 不需要注册账号，不要求提供姓名、邮箱、手机号。
+- 目前不需要注册 WasHere 账号，不要求提供姓名、邮箱、手机号。未来的 Garmin 同步需由你主动授权 Garmin Connect。
 - 不接入广告，不使用第三方统计或分析工具。
 - 不追踪你，不跨应用识别你，不出售任何数据。
-- 我们没有自己的服务器，开发者无法看到你的位置、轨迹或任何记录。
+- 手机和 Apple Watch 自行记录的数据不会上传至开发者服务器。未来如你主动使用 Garmin 同步，开发者控制的腾讯云服务器将接收获授权的 Garmin 活动数据；详见上方 Garmin 专项说明。
 
 ### 2. 位置与轨迹
 - 本应用使用定位来显示你的当前位置并记录运动轨迹。你点击"开始"并确认后才会开始记录，点击"结束"后停止。
@@ -28,7 +28,7 @@ WasHere（"本应用"）是一款户外轨迹记录应用。我们的原则很�
 - **天气（Open-Meteo，open-meteo.com）**：查询天气时会发送你当前位置**四舍五入到约 1 公里精度**的经纬度。请求不包含账号、设备标识或轨迹。Open-Meteo 作为服务提供方可能看到你的 IP 地址，处理方式见其隐私说明。
 - **地图（Mapbox，mapbox.com）**：显示地图时，设备会向 Mapbox 请求你正在查看区域的地图图块。Mapbox 可能按其隐私政策收集地图使用相关的信息（例如 IP 地址、设备型号和系统版本、应用标识），详见 https://www.mapbox.com/legal/privacy 。
 
-除此之外，本应用不向任何其他方发送你的数据。
+未来如你主动连接 Garmin Connect，相关数据还会经由开发者控制的腾讯云服务器处理；处理方、用途与保留期限见 [Garmin Connect 数据隐私说明](https://qiuxin.github.io/washere-privacy/garmin-privacy.html)。
 
 ### 4. 通知
 本应用可能在你完成整数公里时发送**本地通知**，通知在设备上生成，不涉及任何服务器。
@@ -40,6 +40,7 @@ WasHere（"本应用"）是一款户外轨迹记录应用。我们的原则很�
 - 你可以在本应用中删除单条记录，或在"设置与备份"中删除全部本地记录。
 - 开启过 iCloud 同步的话，iCloud 云盘中的文件不会因为关闭同步而自动删除，你可以在"文件"App 的 iCloud 云盘 → WasHere 中删除。
 - 卸载本应用会删除这台设备上的本地数据。
+- Garmin 同步上线后，服务器上的 Garmin 原始活动文件在成功导入后删除；失败文件最多保留 7 天。撤回授权和请求删除的方法见 [Garmin Connect 数据隐私说明](https://qiuxin.github.io/washere-privacy/garmin-privacy.html)。
 
 ### 7. 儿童隐私
 本应用不面向 13 岁以下儿童，也不会有意收集儿童的个人信息。
@@ -54,13 +55,13 @@ WasHere（"本应用"）是一款户外轨迹记录应用。我们的原则很�
 
 ## English
 
-WasHere ("the App") is an outdoor track recorder. Our principle is simple: your tracks belong to you, and we neither need nor collect them.
+WasHere ("the App") is an outdoor track recorder. Tracks you record on your iPhone or Apple Watch remain under your control by default. If you choose to connect Garmin Connect once that feature launches, Garmin activity data will be processed as described in our [Garmin Connect Data Privacy Notice](https://qiuxin.github.io/washere-privacy/garmin-privacy.html).
 
 ### 1. What we don't do
-- No account is required. We don't ask for your name, email or phone number.
+- No WasHere account is currently required. We don't ask for your name, email or phone number. Future Garmin sync will require you to authorize Garmin Connect.
 - No ads, and no third-party analytics.
 - We don't track you, don't identify you across apps, and don't sell data.
-- We run no servers. The developer cannot see your location, tracks or any of your records.
+- Activities recorded on your iPhone or Apple Watch are not uploaded to a developer server. If you choose future Garmin sync, a developer-controlled Tencent Cloud server will receive the Garmin activity data you authorize; see the Garmin notice linked above.
 
 ### 2. Location and tracks
 - The App uses location to show where you are and to record your activity. Recording starts only after you tap Start and confirm, and stops when you tap Finish.
@@ -74,7 +75,7 @@ To provide maps and weather the App makes network requests to the services below
 - **Weather (Open-Meteo, open-meteo.com):** when looking up weather, the App sends your current coordinates **rounded to about 1 km**. The request contains no account, device identifier or track. As the service provider, Open-Meteo may see your IP address; see its own privacy information.
 - **Maps (Mapbox, mapbox.com):** to display the map, your device requests map tiles for the area you are viewing. Mapbox may collect map-usage information under its privacy policy (for example IP address, device model and OS version, app identifier). See https://www.mapbox.com/legal/privacy .
 
-The App sends your data to no one else.
+If you choose to connect Garmin Connect in the future, the related data will also be processed through a developer-controlled Tencent Cloud server. See the [Garmin Connect Data Privacy Notice](https://qiuxin.github.io/washere-privacy/garmin-privacy.html) for processors, purposes and retention.
 
 ### 4. Notifications
 The App may show **local notifications** when you complete whole kilometres. They are generated on your device and involve no server.
@@ -86,6 +87,7 @@ You can export activities as GPX or as a JSON backup and choose where to save or
 - You can delete a single activity in the App, or delete all local activities in Settings & backup.
 - If you used iCloud sync, files in iCloud Drive are not deleted automatically when you turn sync off. You can remove them in the Files app under iCloud Drive → WasHere.
 - Uninstalling the App removes the local data on that device.
+- Once Garmin sync launches, raw Garmin activity files on the server will be deleted after successful import; failed imports will be retained for at most seven days. See the [Garmin Connect Data Privacy Notice](https://qiuxin.github.io/washere-privacy/garmin-privacy.html) for revocation and deletion requests.
 
 ### 7. Children
 The App is not directed at children under 13 and does not knowingly collect children's personal information.
